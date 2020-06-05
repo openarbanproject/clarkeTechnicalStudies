@@ -42,6 +42,7 @@
     \relative c'
     {
       \numericTimeSignature \time 3/4
+      \tempo 4 = 160 - 336
       fs,8\pp\<( g gs a as b\! c\> b bf a af g\! 
       fs\< g gs a as b\! c\> b bf a af g\!)
       \bar ":|." fs2 r4 \bar "|."
@@ -448,6 +449,7 @@
     \relative c''
     {
       \numericTimeSignature \time 6/8
+      \tempo 4. = 120
       c,16(\pp\> b bf a af g\! fs\< g gs a as b\!
       c-"sim." b bf a af g fs g gs a as b
       c b bf a af g fs g gs a as b

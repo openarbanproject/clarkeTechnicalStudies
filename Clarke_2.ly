@@ -43,6 +43,7 @@
     {
       \numericTimeSignature \time 2/2
       \key g \major
+      \tempo 2 = 60 -120
       g8->\p( a b g a-> b c a b-> c d b g-> a b g
       a-> b c a fs-> g a fs g-> b a g a-> c b a)
       \bar ":|." g2 r \bar "|."
@@ -354,6 +355,7 @@
     {
       \numericTimeSignature \time 4/4
       \key c \major
+      \tempo 4 = 144
       g16\p->( a b g a c b a b-> c d b c e d c)
       a->( b cs a b d cs b cs-> d e cs d fs e d)
       b->( cs ds b cs e ds cs ds-> e fs ds e gs fs e)
